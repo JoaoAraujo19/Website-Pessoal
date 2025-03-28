@@ -170,8 +170,22 @@ img {
 .lista:hover .item:not(:hover) {
     filter: blur(5px);
 }
-@media (max-width: 768px) {
-    .item {
-        height: 300px;  /* Ajuste a altura para telas menores */
+@media screen and (max-width:1020px) {
+
+    /*RESPONSIVIDADE-Classes gerais */
+    .flex {
+        flex-direction: column;
     }
+    /*RESPONSIVIDADE-cabeçalho */
+   header .menu-desktop{
+    width: 50px;
+   }
+    header .logo{
+        width: 50%;
+    }
+    .aj-contatos a{
+        display: none;
+    }
+
 }
+   

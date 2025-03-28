@@ -83,7 +83,9 @@ section .novidades{
     max-width: 600px;
     margin: auto;
 }
-
+h3 i{
+    color: #d2691e;
+}
 .card {
     background: #d2691e4b;
     padding: 15px;
