@@ -69,6 +69,7 @@ h1{
     color: white;
     margin: 75px 0;
     font-size: 48px;
+    
 }
 .titulo{
     color: #d2691e;
@@ -87,8 +88,11 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 .box img {
     width: 100%;
+    margin-bottom: -250px;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
@@ -105,6 +109,7 @@ h1{
     /*RESPONSIVIDADE-Classes gerais */
     .flex {
         flex-direction: column;
+        
     }
     /*RESPONSIVIDADE-cabeçalho */
    header .menu-desktop{
@@ -116,5 +121,28 @@ h1{
     .aj-contatos a{
         display: none;
     }
+    .box img{
+        margin-bottom: -250px;
+    }
 
+}
+
+@media (max-width: 768px) {
+    .box {
+        margin: 50px 0; 
+        position: relative;
+        transform: none; 
+        top: auto; 
+        left: auto; 
+        align-items: center;
+    }
+
+    .text {
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    h1 {
+        font-size: 36px; 
+    }
 }
