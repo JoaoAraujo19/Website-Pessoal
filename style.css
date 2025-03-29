@@ -183,8 +183,8 @@ img {
     header .logo{
         width: 50%;
     }
-    .aj-contatos a{
-        display: none;
+     header .aj-contatos{
+     margin-bottom: 250px;
     }
 
 }
